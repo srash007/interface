@@ -1,0 +1,107 @@
+.Head{
+    background-color: #0b4c00;
+    color: whitesmoke;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.headList{
+    
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+  
+      
+}
+.headListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.headContainer{
+    width: 100%;
+    max-width:  1024px; 
+    margin: 20px 0px 100px 0px;
+}
+
+.headContainer.list{
+  margin: 20px 0px 0px 0px;
+
+}
+.headSearch {
+  height: 30px;
+  background-color:whitesmoke;
+  border: 3px solid rgb(202, 6, 39);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.headIcon {
+    color: rgb(6, 82, 36);
+  }
+  
+.headSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+}
+  
+.headSearchInput {
+    border: none;
+    outline: none;
+  }
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: salmon;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: pointer;
+  background-color: white;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,33 @@
+.SignIn{
+
+    color: salmon;
+    display: flex;
+    justify-content: center;
+}
+.sighInContainer{
+    width: 75%;
+    max-width: 1024px;
+    margin-bottom: 80px;
+}
+
+.signInTitle{
+    font-style :italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1cm;
+
+}
+.signInInput{
+    border: none;
+    top: 50px;
+    width: 7cm;
+    margin-left: 3%;
+    
+
+}
+.SignInBttn{
+    margin-bottom: 1cm;
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

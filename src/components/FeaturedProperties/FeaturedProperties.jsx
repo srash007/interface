@@ -1,0 +1,66 @@
+import "./featuredProperties.css";
+
+const FeaturedProperties = () => {
+  return (
+    <div className="fp">
+      <div className="fpItem">
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/e3/49/d1/the-strat-exterior.jpg?w=700&h=-1&s=1"
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">Stratosphere</span>
+        <span className="fpCity">Las Vegas</span>
+        <span className="fpPrice">A partir de 200$</span>
+        <div className="fpRating">
+          <button>8.9</button>
+          <span>Excellent</span>
+        </div>
+      </div>
+      <div className="fpItem">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">Niagara Falls Marriott on the Falls</span>
+        <span className="fpCity">Niagara Falls</span>
+        <span className="fpPrice"> A partir 150$</span>
+        <div className="fpRating">
+          <button>9.3</button>
+          <span>Exceptional</span>
+        </div>
+      </div>
+      <div className="fpItem">
+        <img
+          src="https://d2p6r8xzxr1n9h.cloudfront.net/userfiles/images/destination-articles/vancouver_victoria/exterior_ariel_view_479725_standard.jpg;w=940;h=628;bgcolor=000"
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">The Fairmont Hotel</span>
+        <span className="fpCity">Vancouver</span>
+        <span className="fpPrice"></span>
+        <div className="fpRating">
+          <button>8.8</button>
+          <span>Excellent</span>
+        </div>
+      </div>
+      <div className="fpItem">
+        <img
+          src="https://lh3.googleusercontent.com/p/AF1QipPIj5-deZRhSVgvY1OvINk-pN5XnS5jZw6doba7=w592-h404-n-k-rw-no-v1"
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">JW Marriott Edmonton ICE District</span>
+        <span className="fpCity">Edmonton</span>
+        <span className="fpPrice"> A partir de 300$</span>
+        <div className="fpRating">
+          <button>8.9</button>
+          <span>Excellent</span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FeaturedProperties;
